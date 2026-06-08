@@ -1,4 +1,72 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#008000,#ffffff,#ff0000);
+    text-align:center;
+    color:#222;
+}
+
+.mundial-container{
+    max-width:900px;
+    margin:30px auto;
+    padding:25px;
+}
+
+h1{
+    font-size:3em;
+    margin-bottom:30px;
+    color:#000;
+    text-shadow:2px 2px 5px white;
+}
+
+.contador{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.tiempo{
+    background:white;
+    width:150px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.tiempo span{
+    font-size:3em;
+    font-weight:bold;
+    color:#008000;
+}
+
+.tiempo p{
+    margin-top:10px;
+    font-size:1.2em;
+}
+
+.reloj,
+.fecha{
+    background:white;
+    margin-top:20px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.reloj p,
+.fecha p{
+    font-size:2em;
+    font-weight:bold;
+    color:#d60000;
+}
 
 body {
     font-family: 'Inter', sans-serif;
